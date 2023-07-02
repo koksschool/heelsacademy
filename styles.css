@@ -83,6 +83,7 @@ main {
   z-index: 1;
   align-self: center;
   box-shadow: 0 30px 40px rgba(0,0,0,.1);
+  display: inline;
 
 }
 
@@ -117,16 +118,12 @@ section {
 
 
 /*Styles gallery*/
-
-.gallery {
-  position: relative;
-  width: 500px;
-  height: 300px;
-  margin: 0 auto;
+#photogal {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 #image {
-  width: 500px;
+  width: 650px;
   height: auto;
   align-self: center;
   align-content: center;
@@ -187,6 +184,7 @@ section {
     max-width: 100%;
     margin: 0;
     padding: 0;
+    text-align: center;
   }
 
   header {
@@ -221,7 +219,10 @@ section {
   section {
     width: 300px;
     padding: 20px;
-    align-self: center;
+
+    align-items: center;
+
+  
   }
 
   #image {
@@ -230,9 +231,65 @@ section {
 
   #imageBox {
     position: relative;
-    left: 40px;
+    left: 50%;
+    transform: translateX(-50%);
     align-self: center;
   }
 
+  #image {
+    width: 100%;
+    max-width: 330px;
+    align-self: center;
+    margin: 20px;
+  }
+  }
+
+  main {
+    align-items: center;
+    display: inline-block;
+    
+  }
+
+  #inBetween {
+    height: 700px;
+  }
+
+  #inBetween h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    top: -5px;
+    line-height: 30px;
+  }
+
+  #textcont {
+    max-width: 300px;
+    paddingpx;
+  }
+
+  #textcont p {
+    position: relative;
+    top: -9px;
+    font-size: 14px;
+    line-height: ;
+  }
+
+
+
+  #image {
+    width: 330px;
+    align-self: center;
+    margin: 20px;
+  }
+
+  #imageBox {
+
+    align-self: center;
+  }
+
+  .cont {
+    align-items: center;
+    display: flex;
+    text-align: center;
+  }
 
 }

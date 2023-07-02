@@ -1,0 +1,204 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  line-height: 2.5;
+  font-size: 16px;
+  background: #fff;
+  color: #848484;
+  font-weight: 300;
+  overflow-x: hidden;
+} a {
+  color: #eace2d;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+a:hover {
+  text-decoration: none !important;
+  color: #eace2d !important;
+}
+
+
+/*Header*/
+header {
+  text-align: left;
+  position: static;
+  background-color: white;
+  opacity: 0.7;
+  height: 120px;
+} #logo {
+  width: 100px;
+  height: auto;
+  margin: 20px;
+  vertical-align: middle;
+  transition: 0.5s;
+} #logo:hover {
+  width: 110px;
+  height: auto;
+} header a {
+  color: none;
+} .tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  color: black;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+  z-index: 1;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity .3s;
+  font-weight: 500px;
+  position: relative;
+  right: 110px;
+  transition-property: right;
+  transition-duration: 0.5s
+} .tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  right: 0px;
+}
+
+
+/*In-between*/
+
+#inBetween {
+  z-index: -10;
+  margin-bottom: -150px;
+  
+  background-image: url(wallpaper.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 800px;
+  bottom: 180px;
+  position: relative;
+} #inBetween h1 {
+  font-size: 50px;
+  color: black;
+  margin-left: 100px;
+  position: relative;
+  bottom: 20px;
+} #textcont {
+  padding: 30px;
+  position: relative; 
+  background-color: slategrey;
+  opacity: 0.8;
+  width: 400px;
+  height: auto;
+  top: 300px;
+  color: black;
+} #textcont p {
+  font-size: 20px;
+  margin-left: 100px;
+  position: relative;
+  bottom: 50px;
+} 
+
+
+section {
+  padding: 30px;
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+  z-index: 1;
+  padding: 20px;
+} .cont img {
+  float: left;
+  margin-right: 20px;
+  height: 250px;
+  position: relative;
+  /*bottom: 12px;*/
+} .cont p {
+  line-height: 35px;
+  font-size: 20px;
+}
+
+
+
+
+
+footer {
+/*  background-color: #2E4057;
+  color: #fff;*/
+  padding: 20px;
+  text-align: center;
+
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    line-height: 15px;
+    font-size: 14px;
+  }
+
+  header {
+    height: auto;
+  }
+
+  #logo {
+    width: 80px;
+    padding: 15px;
+    padding-left: 20px;
+  }
+
+  .tooltip .tooltiptext {
+    bottom: 110%;
+  }
+
+  #inBetween {
+  }
+
+  #inBetween h1 {
+    font-size: 24px;
+
+    margin-bottom: 20px;
+    top: -5px;
+  }
+
+  #textcont {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  #textcont p {
+    position: relative;
+    top: -9px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  section {
+    padding: 7px;
+  }
+
+  .cont img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .cont p {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+}

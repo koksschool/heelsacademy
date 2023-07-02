@@ -1,17 +1,6 @@
 html{
   scroll-behavior: smooth;
-}
-
-
-
-
-
-
-
-
-
-
-body {
+} body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -22,6 +11,7 @@ body {
   color: #848484;
   font-weight: 300;
   overflow-x: hidden;
+  align-items: center;
 } a {
   color: #eace2d;
   -webkit-transition: 0.5s;
@@ -113,22 +103,57 @@ header {
 } 
 
 
-section {
-  padding: 30px;
+
+
+/*main part*/
+#gridContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
   text-align: justify;
   margin-left: 50px;
   margin-right: 50px;
   z-index: 1;
+}
+
+
+section {
+  display: inline-grid;
+  padding: 15px;
+} .cont {
   padding: 20px;
+  display: grid;
+  align-items: center;
+  transition: 0.5s ease;
 } .cont img {
-  float: left;
-  margin-right: 20px;
-  height: 250px;
-  position: relative;
-  /*bottom: 12px;*/
+  object-fit: cover;
+  position: inherit;
+  height: 350px;
+  transition: 0.5s ease;
+} .cont h2 {
+    font-size: 32px;
+    text-align: left;
+    line-height: 35px;
 } .cont p {
   line-height: 35px;
   font-size: 20px;
+} .photgalLink {
+  text-align: center;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  height: auto;
+  transition-property: color background-color bottom opacity;
+  bottom: 0;
+} .photgalLink:hover {
+  background-color: slategrey;
+} .cont:hover img {
+  opacity: 0.3;
+} .cont:hover .photgalLink {
+  position: relative;
+  bottom: 50px;
 }
 
 

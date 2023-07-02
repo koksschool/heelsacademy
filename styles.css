@@ -236,17 +236,12 @@ section {
     align-self: center;
   }
 
-  #image {
-    width: 100%;
-    max-width: 330px;
-    align-self: center;
-    margin: 20px;
-  }
-  }
+
 
   main {
     align-items: center;
     display: inline-block;
+    margin-bottom: 75px;
     
   }
 
@@ -276,7 +271,7 @@ section {
 
 
   #image {
-    width: 330px;
+    width: 350px;
     align-self: center;
     margin: 20px;
   }
@@ -291,5 +286,35 @@ section {
     display: flex;
     text-align: center;
   }
+
+#prevBtn,
+#nextBtn {
+  position: absolute;
+  top: 110%;
+
+  
+
+}
+
+#prevBtn {
+  left: 120px;
+}#nextBtn {
+  right: 120px;
+
+}
+
+#prevBtn:hover {
+
+  width: 50px;
+  height: 50px;
+  left: 120px;
+}
+
+#nextBtn:hover {
+
+  width: 50px;
+  height: 50px;
+  right: 120px;
+}
 
 }

@@ -130,6 +130,7 @@ section {
   object-fit: cover;
   position: inherit;
   height: 350px;
+  width: 524.345px;
   transition: 0.5s ease;
 } .cont h2 {
     font-size: 32px;
@@ -211,6 +212,21 @@ footer {
     top: -9px;
     font-size: 14px;
     line-height: 20px;
+  }
+
+  #gridContainer {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+  z-index: 1;
+  } .cont h2 {
+    font-size: 20px;
+    text-align: left;
+    line-height: 25px;
   }
 
   section {

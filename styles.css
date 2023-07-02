@@ -44,7 +44,7 @@ header {
   z-index: 1;
   margin-bottom: -150px;
   
-  background-image: url(Pics/14.JPG);
+  background-image: url(1/14.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -54,9 +54,11 @@ header {
   bottom: 180px;
   position: relative;
 } #inBetween h1 {
-  font-size: 50px;
+  font-size: 30px;
+  line-height: 35px;
   color: black;
   margin-left: 100px;
+  margin-bottom: 50px;
   position: relative;
   bottom: 20px;
 } #textcont {
@@ -66,7 +68,7 @@ header {
   opacity: 0.8;
   width: 400px;
   height: auto;
-  top: 300px;
+  top: 260px;
   color: black;
 } #textcont p {
   font-size: 20px;

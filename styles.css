@@ -40,11 +40,22 @@ header {
 
 /*In-between*/
 
-#inBetween {
+#inB0 {
+  background-image: url(0/5.jpg);
+} #inB1{
+  background-image: url(1/13.jpg);
+} #inB2{
+  background-image: url(2/5.jpg);
+} #inB3{
+  background-image: url(3/14.jpg);
+} #inB4{
+  background-image: url(4/11.jpg);
+} #inB5{
+  background-image: url(5/15.jpg);
+}.inBetween {
   z-index: 1;
   margin-bottom: -150px;
   
-  background-image: url(1/14.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -53,7 +64,7 @@ header {
   height: 800px;
   bottom: 180px;
   position: relative;
-} #inBetween h1 {
+} .inBetween h1 {
   font-size: 30px;
   line-height: 35px;
   color: black;
@@ -193,12 +204,12 @@ section {
     height: 50px;
   }
 
-  #inBetween {
+  .inBetween {
     height: 700px;
 
   }
 
-  #inBetween h1 {
+  .inBetween h1 {
     font-size: 24px;
 
     margin-bottom: 20px;
@@ -251,7 +262,7 @@ section {
     height: 700px;
   }
 
-  #inBetween h1 {
+  .inBetween h1 {
     font-size: 24px;
     margin-bottom: 20px;
     top: -5px;

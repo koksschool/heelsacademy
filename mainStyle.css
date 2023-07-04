@@ -132,6 +132,7 @@ section {
   height: 350px;
   width: 524.345px;
   transition: 0.5s ease;
+  margin-bottom: 0;
 } .cont h2 {
     font-size: 32px;
     text-align: left;
@@ -148,8 +149,10 @@ section {
   text-decoration: none;
   height: auto;
   width: 514.344px;
-} .photgalLink:hover  {
+  opacity: 0;
+} .cont:hover .photgalLink  {
   background-color: slategrey;
+  opacity: 1;
 
 } .cont:hover img {
   opacity: 0.3;

@@ -1,5 +1,4 @@
-var images = ["SCvsAimz/1.jpg", "SCvsAimz/2.jpg", "SCvsAimz/3.jpg", "SCvsAimz/4.jpg", "SCvsAimz/5.jpg", "SCvsAimz/6.jpg", "SCvsAimz/7.jpg", "SCvsAimz/8.jpg", "SCvsAimz/9.jpg", "SCvsAimz/10.jpg", "SCvsAimz/11.jpg", "SCvsAimz/12.jpg", "SCvsAimz/13.jpg", "SCvsAimz/14.jpg", "SCvsAimz/15.jpg",
-];
+var images = ["GSCvsAimz/1.jpg", "GSCvsAimz/2.jpg", "GSCvsAimz/3.jpg", "GSCvsAimz/4.jpg", "GSCvsAimz/5.jpg", "GSCvsAimz/6.jpg", "GSCvsAimz/7.jpg", "GSCvsAimz/8.jpg", "GSCvsAimz/9.jpg", "GSCvsAimz/10.jpg", "GSCvsAimz/11.jpg", "GSCvsAimz/12.jpg", "GSCvsAimz/13.jpg", "GSCvsAimz/14.jpg", "GSCvsAimz/15.jpg", ];
 var currentIndex = 0;
 
 function prevImage() {

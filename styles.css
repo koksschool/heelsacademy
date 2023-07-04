@@ -53,8 +53,14 @@ header {
 } #inBSCvsElite{
   background-image: url(SCvsElite/11.jpg);
 } #inBSCvsGSC{
-  background-image: url(SCvsGSC/15.jpg);
-}.inBetween {
+  background-image: url(SCvsGSC/13.jpg);
+} #inBGSCvsAimz{
+  background-image: url(GSCvsAimz/15.jpg);
+} #inBNGSCvsElite{
+  background-image: url(NGSCvsElite/13.jpg);
+} #inBNGSC-GSCvsAimz{
+  background-image: url(NGSC-GSCvsAimz/14.jpg);
+} .inBetween {
   z-index: 1;
   margin-bottom: -150px;
   

@@ -40,18 +40,20 @@ header {
 
 /*In-between*/
 
-#inB0 {
-  background-image: url(0/5.jpg);
-} #inB1{
-  background-image: url(1/13.jpg);
-} #inB2{
-  background-image: url(2/5.jpg);
-} #inB3{
-  background-image: url(3/14.jpg);
-} #inB4{
-  background-image: url(4/11.jpg);
-} #inB5{
-  background-image: url(5/15.jpg);
+#inBKS1 {
+  background-image: url(KS1/5.jpg);
+} #inBKS2 {
+  background-image: url(KS2/11.jpg);
+} #inBNGSCcup22{
+  background-image: url(NGSCcup22/13.jpg);
+} #inBRAMAcup23{
+  background-image: url(RAMAcup23/5.jpg);
+} #inBSCvsAimz{
+  background-image: url(SCvsAimz/14.jpg);
+} #inBSCvsElite{
+  background-image: url(SCvsElite/11.jpg);
+} #inBSCvsGSC{
+  background-image: url(SCvsGSC/15.jpg);
 }.inBetween {
   z-index: 1;
   margin-bottom: -150px;
